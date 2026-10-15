@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions & build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.jupyter/
+
+# Hugging Face & PyTorch model weights and checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+*.onnx
+*.msgpack
+models/
+weights/
+checkpoints/
+quantized_models/
+hf_cache/
+.cache/
+
+# External cloned repositories & submodules
+llama.cpp/
+
+# Experiment tracking & logs
+wandb/
+runs/
+*.log
+*.tfevents.*
+
+# Secrets & Local Environment Configs
+.env*.local
+*.pem
+*.key
+*token*.txt
+
+# macOS & OS artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
