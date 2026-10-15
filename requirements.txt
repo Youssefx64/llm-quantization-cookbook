@@ -1,0 +1,27 @@
+# Core Deep Learning & NLP
+torch>=2.2.0
+transformers>=4.40.0
+accelerate>=0.28.0
+bitsandbytes>=0.43.0
+optimum>=1.18.0
+datasets>=2.18.0
+sentencepiece
+huggingface_hub
+
+# Data Science & Plotting
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Interactive & Development
+jupyterlab
+ipywidgets
+
+# Optional Quantization Libraries:
+# Uncomment as needed for specific sections:
+# gptqmodel>=1.0.0
+# autoawq>=0.2.5
+# optimum-quanto
+# torchao
+# llama-cpp-python
+# peft
