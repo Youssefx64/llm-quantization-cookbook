@@ -1,4 +1,4 @@
-# 🧮 LLM Quantization — A Practical, Hands-On Reference
+# 🧮 LLM Quantization Cookbook — A Practical, Hands-On Reference
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
@@ -119,9 +119,10 @@ Which quantization scheme should you use? Use this table as a quick reference:
 ## 📁 Repository Structure
 
 ```text
-LLM-Quantization/
+llm-quantization-cookbook/
 │
 ├── LLM_Quantization.ipynb      # Main master notebook (all 16 sections)
+├── requirements.txt            # Project dependencies
 ├── LICENSE                     # MIT License
 ├── .gitignore                  # Git exclusions for Python, caches, and weights
 └── README.md                   # Project documentation and guide
@@ -145,8 +146,8 @@ To run the notebook on a local Linux or Windows machine with an NVIDIA GPU:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/LLM-Quantization.git
-cd LLM-Quantization
+git clone https://github.com/Youssefx64/llm-quantization-cookbook.git
+cd llm-quantization-cookbook
 
 # 2. Create and activate a virtual environment
 python3 -m venv .venv
